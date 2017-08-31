@@ -7,19 +7,15 @@
 //
 
 import UIKit
+import Layout
 
-class ViewController: UIViewController {
+class ViewController: LayoutViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        loadLayout(named: "Bootstrap.xml")
+        
+        title = "man"
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
