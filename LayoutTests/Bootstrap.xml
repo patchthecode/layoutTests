@@ -1,9 +1,31 @@
-
 <UINavigationController>
-    <UINavigationBar>
-    </UINavigationBar>
-    
-    <UIViewController>
+    <UIViewController
+        backgroundColor="yellow">
+        
+        <UIStackView
+            top="64"
+            left="0"
+            width="100%"
+            height="300"
+            distribution="fill"
+            alignment="center"
+            axis="vertical"
+            spacing="20">
+            
+            <UIView
+                backgroundColor="red"
+                width="100"
+                height="100">
+            </UIView>
+            
+            <UIStackView
+                alignment="center"
+                axis="vertical"
+                distribution="fillEqually"
+                spacing="10">
+                <UILabel text="THIS IS THE FIRST SET OF TEXTS" />
+                <UILabel text="SECONDARY TEXTS." />
+            </UIStackView>
+        </UIStackView>
     </UIViewController>
-
 </UINavigationController>

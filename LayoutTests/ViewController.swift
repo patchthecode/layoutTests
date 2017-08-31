@@ -10,12 +10,9 @@ import UIKit
 import Layout
 
 class ViewController: LayoutViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
         loadLayout(named: "Bootstrap.xml")
-        
-        title = "man"
     }
 }
 
